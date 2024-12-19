@@ -135,7 +135,7 @@ else:
             st.write(f"**Similaridade em percentual:** {st.session_state.resultado['percentual']:.2f}%")
 
     # Página de Modelos Disponíveis
-    elif pagina == "Modelos Disponíveis":
+    elif pagina == "Modelos Deep Learning":
         st.title("Modelos Disponíveis")
         st.write("""
         **1. paraphrase-multilingual-MiniLM-L12-v2**: Modelo leve e rápido para múltiplos idiomas.\n
