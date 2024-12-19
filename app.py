@@ -75,7 +75,7 @@ else:
 
     # Menu lateral
     st.sidebar.title("Menu")
-    pagina = st.sidebar.radio("Navegue entre as páginas:", ["Calculadora", "Modelos Disponíveis"])
+    pagina = st.sidebar.radio("Navegue entre as páginas:", ["Calculadora", "Modelos Deep Learning"])
 
     # Página Principal
     if pagina == "Calculadora":
@@ -136,7 +136,7 @@ else:
 
     # Página de Modelos Disponíveis
     elif pagina == "Modelos Deep Learning":
-        st.title("Modelos Disponíveis")
+        st.title("Modelos Deep Learning")
         st.write("""
         **1. paraphrase-multilingual-MiniLM-L12-v2**: Modelo leve e rápido para múltiplos idiomas.\n
         **2. sentence-transformers/LaBSE**: Modelo robusto para embeddings multilíngues.\n
